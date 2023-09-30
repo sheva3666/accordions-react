@@ -1,3 +1,5 @@
+import { AccordionOne } from "../components/AccordionOne/AccordionOne";
+
 export const routes = [
-    {path: "/accordion-1", element: <></>}
+    {path: "/", element: <AccordionOne/>}
 ]
