@@ -1,4 +1,3 @@
-import { CallTracker } from "assert";
 import { useState } from "react";
 import image1 from "./1.jpg";
 import image2 from "./2.jpg";
