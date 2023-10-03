@@ -15,7 +15,7 @@ button {
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -23,6 +23,7 @@ button {
   height: 100%;
   background: #29277a;
   transition: width 0.4s;
+  z-index: 100;
 }
 
 .sidebar.open {
